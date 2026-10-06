@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- EDITE AQUI: título e descrição (aparecem no Google) -->
+  <title>Barbearia mantovani</title>
+  <meta name="description" content="Barbearia mantovani">
+  <meta property="og:title" content="Barbearia mantovani">
+  <meta property="og:description" content="Conheça nosso trabalho">
+  <meta property="og:image" content="assets/espaco.jpg">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#14213D">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- CABEÇALHO: logo + nome -->
+  <header class="topo">
+    <div class="topo-in">
+      <a class="marca" href="#inicio">
+        <img src="assets/logo-mantovani.png" alt="" width="60" height="60" onerror="this.remove()">
+        <span></span>
+      </a>
+      <nav aria-label="Principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#trabalhos">Trabalhos</a>
+        <a href="#precos">Preços</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="botao pequeno" href="https://wa.me/5515999999999?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </header>
+
+  <main id="inicio">
+
+    <!-- HERO: foto do espaço + descrição -->
+    <section class="hero">
+      <div class="hero-texto">
+        <h1>Corte na régua. Barba alinhada.</h1>
+        <p>Atendimento com hora marcada .</p>
+        <a class="botao" href="https://wa.me/5515999999999?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+      </div>
+      <figure class="hero-foto">
+        <img src="assets/interior.png" alt="Interior da Barbearia Exemplo" width="900" height="1100" onerror="this.remove()">
+      </figure>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="bloco sobre">
+      <h2>Sobre a barbearia</h2>
+      <div>
+        <p>Mais do que um lugar para cortar o cabelo, criamos um espaço feito para você relaxar e renovar o visual. Nosso atendimento é focado na experiência individual de cada cliente: ambiente agradável, boa conversa e serviços feitos sem pressa. Agende seu horário e venha alinhar a barba e o corte com quem entende do assunto.</p>
+        
+      </div>
+    </section>
+
+    <!-- TRABALHOS: clique na foto para ampliar. Para mais fotos, copie uma linha <button>. -->
+    <section id="trabalhos" class="bloco">
+      <h2>Trabalhos</h2>
+      <div class="fotos">
+        <button class="foto" type="button"><img src="assets/imagem-01.png" alt="Degradê feito na barbearia" width="600" height="750" loading="lazy" onerror="this.remove()"></button>
+        <button class="foto" type="button"><img src="assets/barba.png" alt="Barba alinhada" width="600" height="750" loading="lazy" onerror="this.remove()"></button>
+        <button class="foto" type="button"><img src="assets/imagem-02.png" alt="Corte masculino" width="600" height="750" loading="lazy" onerror="this.remove()"></button>
+        <button class="foto" type="button"><img src="assets/imagem-03.png" alt="Acabamento na navalha" width="600" height="750" loading="lazy" onerror="this.remove()"></button>
+        <button class="foto" type="button"><img src="assets/finalizado.png" alt="Corte e barba" width="600" height="750" loading="lazy" onerror="this.remove()"></button>
+        <button class="foto" type="button"><img src="assets/infantil.png" alt="Cliente após o corte" width="600" height="750" loading="lazy" onerror="this.remove()"></button>
+      </div>
+    </section>
+
+    <!-- PREÇOS: copie/cole uma linha <li> para cada serviço -->
+    <!--section id="precos" class="bloco">
+      <h2>Preços</h2>
+      <ul class="lista-precos">
+        <li><span class="nome">Corte</span><span class="linha"></span><span class="preco">R$ 40</span></li>
+        <li><span class="nome">Barba</span><span class="linha"></span><span class="preco">R$ 30</span></li>
+        <li><span class="nome">Corte + barba</span><span class="linha"></span><span class="preco">R$ 60</span></li>
+        <li><span class="nome">Sobrancelha</span><span class="linha"></span><span class="preco">R$ 15</span></li>
+      </ul>
+    </section>
+
+    <!-- CONTATO + HORÁRIOS -->
+    <section id="contato" class="bloco contato">
+      <div>
+        <h2>Agende seu horário</h2>
+        <p>Chame no WhatsApp e escolha o melhor horário.</p>
+        <a class="botao grande" href="https://wa.me/5515999999999?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+        <p class="mini"><a class="link" href="https://instagram.com/seu_usuario" target="_blank" rel="noopener">Instagram @seu_usuario</a></p>
+      </div>
+      <dl class="horarios">
+        <div><dt>Segunda a sexta</dt><dd>8h às 20h</dd></div>
+        <div><dt>Sábado</dt><dd>8h às 20h</dd></div>
+        <div><dt>Domingo</dt><dd>Fechado</dd></div>
+      </dl>
+    </section>
+
+    <!-- LOCALIZAÇÃO: troque o endereço no link do mapa (use + no lugar de espaços) -->
+    <section id="onde" class="bloco">
+      <h2>Onde estamos</h2>
+      <address>R. Júlia Martins Domingues, 1083 - Jardim Clarice, Votorantim - SP, 18116-545</address>
+      <div class="mapa">
+        <iframe title="Mapa com a localização da barbearia" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.4441243854735!2d-47.46729572502135!3d-23.552487561265586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58b94a6934d03%3A0x89f1cc6334db41f5!2sBarbearia%20Mantovani!5e0!3m2!1spt-BR!2sbr!4v1791312963711!5m2!1spt-BR!2sbr" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>"></iframe>
+      </div>
+      <p><a class="link" href="https://maps.app.goo.gl/DSoJgNeLMn9FuwYDA" target="_blank" rel="noopener">Abrir no Google Maps</a></p>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>© <span id="ano">2026</span> Mantovani Barbearia. Todos os direitos reservados.</p>
+  </footer>
+
+  <a class="whats-fixo" href="https://wa.me/5515999999999?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">Agendar</a>
+
+  <dialog id="lightbox" aria-label="Foto ampliada"><img src="" alt=""></dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
